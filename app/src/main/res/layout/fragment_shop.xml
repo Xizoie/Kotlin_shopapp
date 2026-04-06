@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clothing"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- BMW Button -->
+    <Button
+        android:id="@+id/bmw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMW M3 (F80 generation)\n$38,000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Mercedes Button -->
+    <Button
+        android:id="@+id/mercedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercedes-Benz CLA-Class (Second Generation)\n$46,400"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Porsche Button -->
+    <Button
+        android:id="@+id/porsche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Porsche 911 GT3 RS (991.1 Generation)\n$189,000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Ferrari Button -->
+    <Button
+        android:id="@+id/ferrari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ferrari 488 Spider\n$260,000"
+        android:gravity="center"
+        android:padding="16dp" />
+
+</LinearLayout>
